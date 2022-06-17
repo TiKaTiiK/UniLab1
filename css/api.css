@@ -88,6 +88,7 @@
 .back {
     left: 30px;
     top: 30px;
+    position: fixed;
 }
 .back a{
     width: 30px;
@@ -112,16 +113,10 @@
 }
 
 div {
-    background-color: #F6F8F9;
     padding: 20px;
     display: block;
   }
   
-.add-post:hover +div {
-    display: block;
-    z-index: -9999;
-  }
-
 .add-post:hover, .add-post:hover.ex2:active {
     font-size: 160%; background-color: #b1717c;
 }

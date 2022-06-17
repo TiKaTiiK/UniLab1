@@ -63,34 +63,17 @@ header{
 	background-color: var(--footer);
 }
 
-.footer .share{
-	
-    padding: 58px;
+.footer a{
+	color: var(--white);
 }
 
-.footer .share a{
-    height: 4rem;
-    width: 4rem;
-    color: var(--white);
-}
- .pages {
-	text-align: left;
-	display: inline-block;
-	justify-content: left;
-	color:#fff;
-	color: var(--white);
-}
- .email {
-	text-align: center;
-	color: var(--white);
-}
-	
 .fixed {
 	max-width: 1440px;
 	width: 100%;
 	margin: 0 auto;
 	position: fixed;
  	color: var(--main-color);
+	z-index: 9999;
 }
 .logo {
 	font-size: 13px;
@@ -146,6 +129,7 @@ header{
 	max-width: 1440px;
 	width: 100%;
 	margin: 0 auto;
+	margin-top: 60px;
 	color: var(--main-color);
 }
 
@@ -371,4 +355,99 @@ header{
 	margin-top: 102px;
 	margin-bottom: 102px;
 }
+.main{
+	max-width: 1160px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 92px;
+}
+.row{
+	border-top: 4px ridge;
+	border-bottom: 2px outset;
+	max-width: 1160px;
+	width: 100%;
+	height: 253px;
+	margin: 0 auto;
+	line-height: 1.6;
+}
+.row .column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	height: 253px;
+}
+  
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.column h2{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Charis SIL', serif;
+}
 
+.column p {
+	font-size: 14px;
+	font-weight: regular;
+	font-family: 'Helvetica', sans-serif;
+	color: var(--footer);
+}
+.column span{
+	color: #A6ADB4;
+}
+
+.div-post {
+	max-width: 1160px;
+	width: 100%;
+	height: 830px;
+	margin: 0 auto;
+	margin-top: 40px;
+	line-height: 1.6;
+	color: var(--footer);
+	font-family: 'Helvetica', sans-serif;
+	border-bottom: 2px outset;
+}
+
+.div-post img  {
+	margin-bottom: 30px;
+}
+.div-post .div-row {
+	width: 760px;
+}
+.div-column p{
+	margin-bottom: 20px;
+}
+.second img{
+	padding-top: 12px;
+}
+
+.footer-row {
+	color: var(--white);
+	max-width: 1160px;
+	width: 100%;	
+	margin: 0 auto;
+	line-height: 1.2;
+	letter-spacing: 1.2px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	padding-top: 30px;
+	
+}
+.footer-row  .pages {
+	float:inline-start;
+	color: var(--white);
+	
+}
+
+.footer-row .share {
+	float: right;
+	gap: 5px;
+	transform: translate(0, 80%);
+	margin-bottom: 30px;
+}
+.footer-row .email {
+	text-align: center;
+}

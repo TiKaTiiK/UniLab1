@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/api.css">
+</head>
+<body>
+    <div class="back" id="goback">
+        <a href="index.html">&larr;</a>
+    </div>
+
+    <div class="post-wraper" id="post-block">
+
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div id="content"></div>
+        <div id="close"> X </div>
+    </div>
+
+    <div class="add-post" id="add-post">  </div>
+    <div id="overlay-add" class="overlay-add">
+        <div id="close-2"> X </div>
+        <form id="form" action="">
+            <div>
+                <div><label for=""> Title </label></div>
+                <input id="title" type="text" placeholder="Title">
+            </div>
+            <div>
+                <div><label for=""> Description </label></div>
+                <textarea name="Description" id="body" placeholder="Description"></textarea>
+            </div>
+            <button>ADD POST</button>
+        </form>
+    </div>
+
+    <script src="js/api.js"></script>
+</body>
+</html>

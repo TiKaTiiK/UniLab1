@@ -121,6 +121,19 @@ header{
 	height: 20px;
 	font-weight: bold;
 }
+
+.header .icons div{
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color:var(--main-color);
+}
+
+
 .next {
 	margin: 58px 0 0;
 }
@@ -451,3 +464,5 @@ header{
 .footer-row .email {
 	text-align: center;
 }
+
+
